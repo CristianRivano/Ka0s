@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ka0s — laboratorio digital de Cristian Rivano. Experimentos web, interfaces, visuales, audio, 3D y hardware.">
+  <meta name="theme-color" content="#08090c">
+  <title>Ka0s — laboratorio digital</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ka0s, inicio"><span class="brand-mark">K</span><span>Ka0s</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="https://github.com/CristianRivano" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <p class="eyebrow"><span class="pulse"></span> laboratorio digital · Talca, Chile</p>
+      <h1>Ideas raras.<br><em>Interfaces vivas.</em></h1>
+      <p class="intro">Un archivo en movimiento de experimentos web, herramientas, visuales, audio, 3D y hardware creados por <strong>Cristian Rivano</strong>.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↓</span></a>
+        <a class="button button-ghost" href="https://github.com/CristianRivano" target="_blank" rel="noreferrer">Ver GitHub <span>↗</span></a>
+      </div>
+      <div class="hero-orbit" aria-hidden="true"><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span><span class="orb-dot"></span><span class="orb-label">BUILD<br>THINGS</span></div>
+    </section>
+
+    <section class="signal" aria-label="Resumen">
+      <div><span class="signal-number">15</span><span class="signal-label">proyectos<br>seleccionados</span></div>
+      <div><span class="signal-number">06</span><span class="signal-label">áreas de<br>experimentación</span></div>
+      <div><span class="signal-number">∞</span><span class="signal-label">curiosidad<br>en progreso</span></div>
+    </section>
+
+    <section class="projects-section" id="proyectos">
+      <div class="section-heading"><p class="eyebrow">01 / archivo</p><h2>Trabajos publicados</h2><p>Proyectos que puedes abrir, probar o estudiar. Filtra el archivo por disciplina.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar proyectos">
+        <button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="visual">Visual</button><button class="filter" data-filter="tech">Tech</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured" data-category="web visual" data-index="01"><div class="card-top"><span class="project-index">01</span><span class="tag">live / web</span></div><h3>Chess</h3><p>Ajedrez Flat UI Nanai Pro: motor completo con IA, historial, drag & drop, FEN y PGN.</p><div class="card-links"><a href="http://rivano.click/Chess/" target="_blank" rel="noreferrer">Abrir demo ↗</a><a href="https://github.com/CristianRivano/Chess" target="_blank" rel="noreferrer">Código ↗</a></div></article>
+        <article class="project-card" data-category="web visual" data-index="02"><div class="card-top"><span class="project-index">02</span><span class="tag">3D / live</span></div><h3>Talca</h3><p>Explorador 3D del centro urbano de Talca, Chile. Una ciudad convertida en interfaz.</p><div class="card-links"><a href="https://github.com/CristianRivano/Talca" target="_blank" rel="noreferrer">Ver proyecto ↗</a></div></article>
+        <article class="project-card" data-category="web" data-index="03"><div class="card-top"><span class="project-index">03</span><span class="tag">web / tool</span></div><h3>AgendaNanai</h3><p>Reservas online para Masajes Nanai, con una experiencia simple y orientada a la acción.</p><div class="card-links"><a href="https://github.com/CristianRivano/agenda" target="_blank" rel="noreferrer">Ver código ↗</a></div></article>
+        <article class="project-card" data-category="web visual" data-index="04"><div class="card-top"><span class="project-index">04</span><span class="tag">library / es</span></div><h3>Yoga</h3><p>Biblioteca de posturas de yoga en español. Diseño editorial para una herramienta estática.</p><div class="card-links"><a href="https://github.com/CristianRivano/yoga" target="_blank" rel="noreferrer">Ver proyecto ↗</a></div></article>
+        <article class="project-card" data-category="visual" data-index="05"><div class="card-top"><span class="project-index">05</span><span class="tag">visual lab</span></div><h3>21 / Repositorio-21</h3><p>Dos exploraciones visuales: Nórdicos y un diorama 3D de bloque de departamentos.</p><div class="card-links"><a href="https://github.com/CristianRivano/21" target="_blank" rel="noreferrer">Nórdicos ↗</a><a href="https://github.com/CristianRivano/Repositorio-21" target="_blank" rel="noreferrer">Diorama ↗</a></div></article>
+        <article class="project-card" data-category="tech" data-index="06"><div class="card-top"><span class="project-index">06</span><span class="tag">hardware / c++</span></div><h3>Rain Matrix</h3><p>Matrix Rain para ESP32-S3 + NV3041A, doble buffer en PSRAM y render paralelo en Core1.</p><div class="card-links"><a href="https://github.com/CristianRivano/JC4827W543C_ESP32S3_NV3041A_RainMatrix" target="_blank" rel="noreferrer">Ver código ↗</a></div></article>
+        <article class="project-card" data-category="web" data-index="07"><div class="card-top"><span class="project-index">07</span><span class="tag">experiments</span></div><h3>QR · LG · Color</h3><p>Pequeñas herramientas web para convertir, explorar y separar lo cotidiano.</p><div class="card-links"><a href="https://github.com/CristianRivano/qr" target="_blank" rel="noreferrer">QR ↗</a><a href="http://rivano.click/lg/" target="_blank" rel="noreferrer">LG ↗</a><a href="https://github.com/CristianRivano/Color" target="_blank" rel="noreferrer">Color ↗</a></div></article>
+        <article class="project-card" data-category="web visual" data-index="08"><div class="card-top"><span class="project-index">08</span><span class="tag">micro-tools</span></div><h3>Trace · Spin · Image2cpp</h3><p>Herramientas pequeñas, directas y útiles: trazar, girar e imagear para código.</p><div class="card-links"><a href="https://github.com/CristianRivano/trace" target="_blank" rel="noreferrer">Trace ↗</a><a href="https://github.com/CristianRivano/spin" target="_blank" rel="noreferrer">Spin ↗</a><a href="https://github.com/CristianRivano/image2cpp" target="_blank" rel="noreferrer">Image2cpp ↗</a></div></article>
+        <article class="project-card" data-category="tech visual" data-index="09"><div class="card-top"><span class="project-index">09</span><span class="tag">interactive</span></div><h3>Serum · Dualshock · Smash</h3><p>Experimentos interactivos que cruzan sonido, control y cultura visual.</p><div class="card-links"><a href="https://github.com/CristianRivano/serum" target="_blank" rel="noreferrer">Serum ↗</a><a href="https://github.com/CristianRivano/dualshock" target="_blank" rel="noreferrer">Dualshock ↗</a><a href="https://github.com/CristianRivano/Smash" target="_blank" rel="noreferrer">Smash ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="manifesto"><p class="eyebrow">02 / manifiesto</p><blockquote>“No todo tiene que ser una startup.<br><em>Algunas cosas solo tienen que existir.</em>”</blockquote><p class="manifesto-note">Código como medio. Curiosidad como método. El archivo sigue creciendo.</p></section>
+  </main>
+
+  <footer><span>© 2026 Ka0s / Cristian Rivano</span><span>Hecho en el borde de la pantalla <a href="https://github.com/CristianRivano" target="_blank" rel="noreferrer">GitHub ↗</a></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
